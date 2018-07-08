@@ -29,7 +29,7 @@ If sucess, terminal background will turn green.
 * Copy partition image created on previous step to your thumb drive, on correct folder (if is linux, to linux folder, if windows, to windows specific version forder). Its not mandatory, but mantains organization and easy to manage installed images. :)
 You can add many images as you want. The only limitaion is your driver capacity.
 * After add a partition image file, run "MAKE_THIS_DRIVE_CONTIGUOUS.cmd" to ensure that all file are contiguous on drive. (If a partition image is not contiguous, will not boot)(And yes, you need to run this each time you add a  partition image).
-**Pro tip:** If you want to use a secondary partition, make a second partition **before add the first** partition image and run "MAKE_THIS_DRIVE_CONTIGUOUS.cmd". this will ensure that your partition images won't corrupt. 
+**Pro tip:** If you want to use a secondary partition, make a second partition **before add the first** partition image and run "MAKE_THIS_DRIVE_CONTIGUOUS.cmd". this will ensure that your partition images won't corrupt.
 
 ##### UEFI boot
 (Explanations and limitations)
@@ -48,6 +48,7 @@ Mount uefi iso if you have acess to bios (legacy) mode
 
 To unmount iso uefi image
 * Restart your pc on bios mode
+* Boot form your thumbdrive 
 * Press 0 and enter to return to easy2boot menu
 
 Mount uefi iso if you don't have acess to bios (legacy mode)
