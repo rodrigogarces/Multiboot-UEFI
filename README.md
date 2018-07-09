@@ -16,14 +16,14 @@
 
 
 ### Introduction
-This tutorial is a simplified version (with pictures) of the only functional way that i found to make a multiboot uefi thumdrive.
+This tutorial is a simplified version (with pictures) of the **only** functional way that i found to make a multiboot UEFI thumdrive.
 Is based on [easy2boot](http://www.easy2boot.com/), that is a free multiboot tool, and offers support to multiboot.
 This tutorial is based on windows version, because only windows version have graphical interface, and is easy to work.
 
 ### Installation
 * Download latest version from official [easy2boot website](http://www.easy2boot.com/download) (at time i write this is [v 1.99](http://files.easy2boot.com/200003273-a94b8ab584/Easy2Boot_v1.99.exe)) and install on your computer.
 * Connect your thumb driver and certified that is correctly indentified by windows.
-* Open easy2boot as administrator (PIC) and secet your thumb drive. Be carefull to not select the wrong drive, and make shure you double checked drive, because **all your data stored on the drive will be erased**
+* Open easy2boot as administrator and select your thumbdrive. Be carefull to not select the wrong drive, and make shure you double checked drive, because **all your data stored on the drive will be erased**
 * Click the red button "make E2B drive" and wait. E2B will automatically copy all necessary data to tur your drive in a bootable drive. This step can take a tme, but don't worry, it is running.
 
 ### ISO conversion
