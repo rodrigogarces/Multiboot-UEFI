@@ -24,7 +24,7 @@ This tutorial is based on windows version, because only windows version have gra
 * Download latest version from official [easy2boot website](http://www.easy2boot.com/download) (at time i write this is [v 1.99](http://files.easy2boot.com/200003273-a94b8ab584/Easy2Boot_v1.99.exe)) and install on your computer.
 * Connect your thumb driver and certified that is correctly indentified by windows.
 * Open easy2boot as administrator and select your thumbdrive. Be carefull to not select the wrong drive, and make shure you double checked drive, because **all your data stored on the drive will be erased**
-* Click the red button "make E2B drive" and wait. E2B will automatically copy all necessary data to tur your drive in a bootable drive. This step can take a tme, but don't worry, it is running.
+* Click the red button `make E2B drive` and wait. E2B will automatically copy all necessary data to turn your thumbdrive in a bootable drive. This step can take a time, but don't worry, it's running.
 
 ### ISO conversion
 * In order to use multiboot on UEFI, you need to convert OS images from ISO to a image partition (.imgPTN). for this you will need [mpi pack](http://www.easy2boot.com/download/mpi-pack/).<br> Download and unzip
