@@ -4,13 +4,13 @@
 3. [ISO conversion](#iso-conversion)
 4. [Adding a ISO to thumbdrive](#adding-a-iso-to-thumbdrive)
 5. [UEFI boot](#uefi-boot)
- 1. [Explanations and limitations](#explanations-and-limitations)
- 2. [If you have acess to BIOS mode](#if-you-have-acess-to-bios-mode)
-     1. [Mount UEFI ISO](#mount-uefi-iso)
-     2. [Unmount UEFI ISO](#unmount-uefi-iso)
- 3. [If you don't have acess to BIOS mode](#if-ypu-dont-have-acess-to-bios-mode)
-     1. [Mount UEFI ISO](#mount-uefi-iso-1)
-     2. [Unmount UEFI ISO](#unomunt-uefi-iso-1)
+    1. [Explanations and limitations](#explanations-and-limitations)
+    2. [If you have acess to BIOS mode](#if-you-have-acess-to-bios-mode)
+         1. [Mount UEFI ISO](#mount-uefi-iso)
+         2. [Unmount UEFI ISO](#unmount-uefi-iso)
+    3. [If you don't have acess to BIOS mode](#if-you-dont-have-acess-to-bios-mode)
+         1. [Mount UEFI ISO](#mount-uefi-iso-1)
+         2. [Unmount UEFI ISO](#unmount-uefi-iso-1)
 
 
 
