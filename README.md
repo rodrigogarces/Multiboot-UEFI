@@ -28,8 +28,8 @@ This tutorial is based on windows version, because only windows version have gra
 
 ### ISO conversion
 * In order to use multiboot on UEFI, you need to convert OS images from ISO to a image partition (.imgPTN). for this you will need [mpi pack](http://www.easy2boot.com/download/mpi-pack/).<br> Download and unzip
-* Open unzipped folder and install imDisk (imDisk/imdiskint.exe)
-* Double click "CreateDesktopShortcuts.cmd" to create three shortcuts on desktop (MakePartImage, MPI_FAT32 and MPI_NTFS), will be very usefull to convert images.
+* Open unzipped folder and install imDisk `(imDisk/imdiskint.exe)`
+* Double click `CreateDesktopShortcuts.cmd` to create three shortcuts on desktop (MakePartImage, MPI_FAT32 and MPI_NTFS), will be very usefull to convert images.
 * Drag an ISO file to MPI_FAT32 and follow on screen instructions to convert to a partition image file (.imgPTN).
 If sucess, terminal background will turn green.
 
