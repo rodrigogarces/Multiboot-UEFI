@@ -4,6 +4,16 @@
 3. [ISO conversion](#iso-conversion)
 4. [Adding a ISO to thumbdrive](#adding-a-iso-to-thumbdrive)
 5. [UEFI boot](#uefi-boot)
+ 1. [Explanations and limitations](#explanations-and-limitations)
+ 2. [If you have acess to BIOS mode](#if-you-have-acess-to-bios-mode)
+     1. [Mount UEFI ISO](#mount-uefi-iso)
+     2. [Unmount UEFI ISO](#unmount-uefi-iso)
+ 3. [If you don't have acess to BIOS mode](#if-ypu-dont-have-acess-to-bios-mode)
+     1. [Mount UEFI ISO](#mount-uefi-iso-1)
+     2. [Unmount UEFI ISO](#unomunt-uefi-iso-1)
+
+
+
 
 ### Introduction
 This tutorial is a simplified version (with pictures) of the only functional way that i found to make a multiboot uefi thumdrive.
@@ -43,12 +53,12 @@ You can add many images as you want. The only limitaion is your driver capacity.
 You will need a litlle hackish method to multiboot under UEFI.
 I don't know why, but seems that UEFI doesn't support multiboot natively (!?). It's nonsesnse, considering that BIOS (legacy) mode can do this like a charm.
 On UEFI, you need to switch partitions, to obtain only **one** UEFI bootable partition.
-Due to this limitation, you will need a little extra step over a traditional BIOS (legacy) setup.
+Due to this limitation, you will need a little extra step over a traditional BIOS setup.
 
-#### If you have acess to BIOS (legacy) mode
+#### If you have acess to BIOS mode
 ###### Mount UEFI ISO
 
-* Boot your thumbdrive via BIOS (legacy) mode
+* Boot your thumbdrive via BIOS mode
 ![Boot BIOS](main_menu.png)
 * Select ISO you want to boot.
 ![Boot windows](windows_menu.png)
@@ -58,18 +68,28 @@ Due to this limitation, you will need a little extra step over a traditional BIO
 ![Boot UEFI](boot_uefi.png)
 
 ###### Unmount UEFI ISO
-* Boot your thumbdrive via BIOS (legacy) mode.
+* Boot your thumbdrive via BIOS mode.
 ![Boot BIOS (mounted partition image)](boot_bios.png)
 * Press 0 and enter to return to easy2boot menu
 ![Unmount ISO](unmount_iso.png)
 
-#### If you don't have acess to BIOS (legacy) mode
+#### If you don't have acess to BIOS mode
 ###### Mount UEFI ISO
 
-Windows tutorial...<br>
-TODO
+* Boot your pc on windows
+* Open your thumdrive
+* Navigate to `_ISO`
+* Open `SWITCH_E2B.EXE`. This will list all partition images availabe on thumbdrive
+![Mount ISO windows](mount_iso_windows.png)
+* Double click to mount selected partition image
+![Select ISO windows](select_iso_windows.png)
+* Program will ask if you want to substitute partition table (like on BIOS mode). Prompt `yes`
+![Comfirm ISO windows](confirm_iso_windows.png)
 
 ###### Unmount UEFI ISO
 
-Windows tutorial...<br>
-TODO
+* Boot your pc on windows
+* Open your thumdrive
+* Navigate to `E2B`
+* Open `SWITCH_E2B.EXE` and click on button `Restore E2B partitions`
+![Mounted ISO windows](mounted_iso_windows.png)
